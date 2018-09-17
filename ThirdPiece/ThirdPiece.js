@@ -1,5 +1,4 @@
 var drop = 0;
-//var xcordTwo = 0;
 
 function setup() {
     createCanvas(600, 600);

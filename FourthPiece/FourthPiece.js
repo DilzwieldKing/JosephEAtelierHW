@@ -6,14 +6,11 @@ function setup() {
 
 function draw() {
     background(255, 1);
-    //minHand();
-    //stroke("green");
     for(i = 0; i < 1; i++){
         rectMode(CENTER);
         fill(0);
         translate(300, 300);
         rotate(frameCount/2);
-        //scale(random(0.5), random(0.5));
         rect(200, random(50), random(40), random(40));
         rect(200, random(50), random(30), random(30));
         ellipse(random(5), random(5), random(10));
@@ -21,7 +18,6 @@ function draw() {
         rect(230, random(50), random(100), random(100));
         fill(0, 10);
         rect(300, random(50), random(100), random(20));
-        //minHand();
     }
     for(a = 0; a < 0.1; a++){
         minHand();
